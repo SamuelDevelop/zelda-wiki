@@ -1,0 +1,93 @@
+:root{
+  --bgGradient: linear-gradient(to bottom right, rgb(0, 29, 82), rgb(0, 33, 43), rgb(0, 21, 32));
+  --bgOption: rgba(195, 0, 255, 0.068);
+  --textWhite: white;
+  --textTWhite: rgba(255, 255, 255, 0.836);
+}
+
+@font-face {
+    font-family: 'Hylia Serif';
+    src: url("../assets/fonts/HyliaSerifBeta-Regular.otf") format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Triforce Serif';
+    src: url("../assets/fonts/Triforce.ttf") format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+*{
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body{
+  background-image: var(--bgGradient);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header{
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  z-index: 2;
+  padding: 0.5rem;
+  gap: 0.5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.034);
+  border-radius: 0.2rem;
+}
+
+main{
+  width: 100vw; height: 100vh;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.2rem;
+}
+
+footer{
+  position: absolute;
+  width: 100vw;
+  bottom: 1rem;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: var(--textWhite);
+  font-size: 36pt;
+  font-family: Hylia Serif;
+  font-weight: lighter;
+}
+
+p{
+  color: var(--textTWhite);
+  font-size: 14pt;
+  font-family: "Datatype", monospace;
+}
+
+a{
+  color: rgb(0, 180, 111);
+}
