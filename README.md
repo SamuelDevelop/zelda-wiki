@@ -1,2 +1,0 @@
-# zelda-wiki
-zelda-wiki
