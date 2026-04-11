@@ -1,14 +1,12 @@
 # Zelda Wiki
 
-
-  
-
-
 <div align="center"> 
   <img src="/assets/images/triforce.webp" width="100px">
   
   <h2>Link! Wake up!</h2>
 </div>
+
+<a href="https://zelda-wiki.vercel.app/">Acessar Wiki Aqui!</a>
 
 Minha missão aqui é criar uma aplicação web que esteja conectada a uma api de dados sobre a franquia de jogos The Legend Of Zelda. Os objetivos incluem:
 
