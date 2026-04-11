@@ -1,13 +1,17 @@
 import SearchOption from "./SearchOption";
+import { useNavigate } from "react-router-dom";
 
 function SearchOptions(){
+    const nav = useNavigate();
 
     return (
         <div className="SearchOptions">
             <SearchOption 
                 path="/characters"
-                text="Find someone Character"
-                onClick={()=>{}}
+                text="Characters List"
+                onClick={()=>{
+                    nav("/characters");
+                }}
             />
             <SearchOption 
                 path="/monsters"
