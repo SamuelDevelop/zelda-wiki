@@ -11,7 +11,7 @@ function Characters(){
 
     useEffect (()=>{
         async function loadCharactersList() {
-            const characters = await fetchDataset("characters", 20);
+            const characters = await fetchDataset("characters", 250);
             setCharactersList(characters.data);
         }
 
@@ -25,7 +25,7 @@ function Characters(){
             {charactersList.map((character, index) => (
                 <div key={index}>
                     <h2>{character.name}</h2>
-                    <p><b>Description:</b> {character.description}</p>
+                    
                 </div> 
             ))}
         </>

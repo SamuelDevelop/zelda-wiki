@@ -9,24 +9,24 @@ function SearchOptions(){
         <div className={styles.searchOptions}>
             <SearchOption 
                 path="/characters"
-                text="Characters List"
+                text="Characters"
                 onClick={()=>{
                     nav("/characters");
                 }}
             />
             <SearchOption 
                 path="/monsters"
-                text="Find someone Monster"
+                text="Monsters"
                 onClick={()=>{}}
             />
             <SearchOption 
                 path="/bosses"
-                text="Find someone Boss"
+                text="Bosses"
                 onClick={()=>{}}
             />
             <SearchOption 
                 path="/games"
-                text="Find something Zelda Game"
+                text="Games"
                 onClick={()=>{}}
             />
         </div>

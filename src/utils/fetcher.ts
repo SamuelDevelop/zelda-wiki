@@ -1,3 +1,8 @@
+export async function fetchDataContent(path:string) {
+    const response = await fetch(`https://zelda.fanapis.com/api/${path}`);
+
+    return response.json();
+}
 
 export async function fetchSpecificData(path:string, specificData: string) {
     const response = await fetch(`https://zelda.fanapis.com/api/${path}?name=${specificData}`);

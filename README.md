@@ -24,6 +24,10 @@ Api externa: https://docs.zelda.fanapis.com/
 
 Github da Api: https://github.com/deliton/zelda-api
 
+## Próximos passos:
+
+Adicionar as páginas especificas de personagens.
+
 <div align="center">
   
 ### Tecnologias:

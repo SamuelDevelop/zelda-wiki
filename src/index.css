@@ -1,6 +1,6 @@
 :root{
   --bgGradient: linear-gradient(to bottom right, rgb(0, 14, 41), rgb(0, 21, 27), rgb(0, 12, 19));
-  --bgOption: rgba(195, 0, 255, 0.068);
+  --bgOption: #007e2c;
   --textWhite: white;
   --textTWhite: rgba(255, 255, 255, 0.836);
 }
@@ -54,10 +54,14 @@ h1{
   font-weight: lighter;
 }
 
+
+p, a, input, textarea, label{
+  font-family: "Datatype", monospace;
+}
+
 p{
   color: var(--textTWhite);
   font-size: 14pt;
-  font-family: "Datatype", monospace;
 }
 
 a{
