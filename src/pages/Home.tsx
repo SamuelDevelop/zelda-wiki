@@ -1,5 +1,5 @@
 import SearchArea from "../components/search-area/SearchArea";
-import NoteAbout from "../components/note-about/NoteAbout";
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 
 function Home(){
@@ -9,9 +9,7 @@ function Home(){
             <main>
                 <SearchArea></SearchArea>
             </main>
-            <footer>
-                <NoteAbout />
-            </footer>
+            <Footer />
         </>
     )
 }

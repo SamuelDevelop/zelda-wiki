@@ -47,18 +47,6 @@ main{
   gap: 0.2rem;
 }
 
-footer{
-  position: absolute;
-  width: 100vw;
-  bottom: 1rem;
-  z-index: 2;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 h1{
   color: var(--textWhite);
   font-size: 36pt;
