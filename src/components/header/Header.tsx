@@ -1,9 +1,10 @@
+import styles from "./Header.module.css";
 
 function Header(){
     return (
-        <header>
+        <header className={styles.header}>
             <p>welcome to</p>
-            <h1>Zeldas Wiki</h1>
+            <h1>Zelda's Wiki</h1>
         </header>
     )
 }
